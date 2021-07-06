@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css的三种导入方式</title>
+    <!--内部样式，优先级比行内样式低-->
+    <style>
+        body{
+            background-color: #4158D0;
+            background-image: linear-gradient(58deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+        ;
+        }
+        h1{
+            color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!--优先级：就近原则，谁离元素更近，谁就优先级高-->
+<body>
+    <!--  行内样式：标签元素中编写style  -->
+    <h1 style="color: aqua">行内样式</h1>
+</body>
+</html>

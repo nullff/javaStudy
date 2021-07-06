@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>13种表单元素</title>
+</head>
+<body>
+<form action="result.html" method="get">
+    <p>名字： <input type="text" name="name"/></p>
+    <p>密码： <input type="password" name="password"/></p>
+    <p>
+        <input type="submit" name="Button" value="提交"/>
+        <input type="reset" name="Reset" value="重置"/>
+    </p>
+    <p>
+        <!--1. 文本框 name名称 value初始值 size长度 maxlength可输入最多的字符-->
+        用户名：<input type="text" name="userName" value="xiaokai" size="30" maxlength="20"/>
+    </p>
+    <p>
+        <!--2. 密码框-->
+        密&nbsp;&nbsp;&nbsp;码：<input type="password" name="pwd" size="20"/>
+    </p>
+    <p>
+        <!--3. 单选按钮 同一组单选按钮name属性必须相同才能达到互斥 check按钮选中状态 value单选框的值-->
+        <input type="radio" name="sex" value="boy" checked/>男
+        <input type="radio" name="sex" value="girl" />女
+    </p>
+    <p>
+        <!--4. 复选框 同一组复选框 name相同-->
+        <input type="checkbox" name="interest" value="sport"/>运动
+        <input type="checkbox" name="interest" value="talk" checked />聊天
+        <input type="checkbox" name="interest" value="play"/>玩游戏
+    </p>
+    <p>
+        <!--5. 下拉列表框 select下拉列表框 selected默认选项 option选项 size行数 name列表名称 value选项的值-->
+        下拉列表：<select name="countries" size="1">
+            <option value="USA">美国</option>
+            <option value="US">英国</option>
+            <option value="CN" selected>中国</option>
+        </select>
+    </p>
+    <p>
+        <!--6. 按钮 image默认具有提交submit表单的功能 button普通按钮需要添加onclick事件-->
+        <input type="submit" name="butSubmit" value="submit按钮"/>
+        <input type="reset" name="butReset" value="reset按钮"/>
+        <input type="button" name="butButton" value="button按钮"/><br/>
+        <input type="image" src="../resources/image/test1.jpg" width="50" height="50">
+    </p>
+    <p>
+        <!--7. 多行文本域 cols显示的列数 rows显示的行数-->
+        文本域：<textarea name="showText" cols="30" rows="10">文本内容</textarea>
+    </p>
+    <p>
+        <!--8. 文件域 使用文件域必须设置表单的enctype编码属性为multipart/form-data 表示将表单数据分为多部分提交-->
+        选择文件：<input type="file" name="files" />
+        <input type="submit" name="upload" value="上传"/>
+    </p>
+    <p>
+        <!--9. 邮箱-->
+        邮箱：<input type="email" name="email"/>
+    </p>
+    <p>
+        <!--10. 网址-->
+        网址：<input type="url" name="URL" />
+    </p>
+    <p>
+        <!--11. 数字-->
+        数字：<input type="number" name="num" min="10" max="100" step="10" />
+    </p>
+    <p>
+        <!--12. 滑块-->
+        <input type="range" name="range1" min="0" max="10" step="2">
+    </p>
+    <p>
+        <!--13. 搜索框-->
+        <input type="search" name="sousuo" size="30">
+    </p>
+</form>
+
+
+</body>
+</html>

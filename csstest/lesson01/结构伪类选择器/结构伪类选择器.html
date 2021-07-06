@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        /*ul的第一个子元素*/
+        ul li:first-child{
+            background: #ee158c;
+        }
+        /*ul的最后一个子元素*/
+        ul li:last-child{
+            background: #ee158c;
+        }
+        /*选中p元素的父元素的第二个子元素，且只有当这个子元素是p元素时才生效*/
+        p:nth-child(2){
+            background: blue;
+        }
+        /*选中p元素的父元素的第三个子元素*/
+        p:nth-of-type(3){
+            background: yellow;
+        }
+        /*hover鼠标聚焦变色*/
+        a:hover{
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+<a href="" target="_self">刷新</a>
+<p>p1</p>
+<input type="text">
+<p>p2</p>
+<p>p3</p>
+<ul>
+    <li>li1</li>
+    <li>li2</li>
+    <li>li3</li>
+</ul>
+</body>
+</html>

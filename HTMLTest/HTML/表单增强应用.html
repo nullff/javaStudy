@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单补充</title>
+</head>
+<body>
+<form action="result.html" method="get">
+    <p>
+        <!--在浏览器中看不到隐藏域的内容，但是在提交表单的时候可以看到隐藏域的内容被提交至服务器-->
+        <input type="hidden" value="666" name="userid">
+    </p>
+    <p>
+        <!--只读和禁用-->
+        <input type="text" name="name" value="张三" readonly/>
+        <input type="submit" name="submit" disabled value="保存">
+    </p>
+    <p>
+        <!--增强鼠标可用性 自动将焦点转移到与该标注有关的表单元素上-->
+        <lable for="id">标注的文本</lable>
+        <input type="radio" name="gender" id="male">
+    </p>
+</form>
+
+</body>
+</html>

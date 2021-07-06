@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证</title>
+</head>
+<body>
+<form action="result.html" method="get">
+    <p>
+        <!--placeholder提示语默认显示-->
+        <input type="search" name="sousuo" placeholder="请输入要搜索的关键字"/>
+    </p>
+    <p>
+        <!--required 表示文本框不能为空-->
+        <input type="text" name="username" required>
+    </p>
+    <p>
+        <!--pattern正则表达式-->
+        邮箱：<input type="text" name="tel" required pattern="^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$">
+    </p>
+</form>
+</body>
+</html>
