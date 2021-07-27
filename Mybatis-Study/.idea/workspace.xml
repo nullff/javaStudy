@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d25f7e4-2d89-4653-94f6-6356a63e0262" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/xiaokai/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/xiaokai/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/xiaokai/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/xiaokai/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-01/src/test/java/com/xiaokai/dao/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/xiaokai/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/xiaokai/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/xiaokai/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/xiaokai/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/test/java/com/xiaokai/dao/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/src/main/java/com/xiaokai/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/src/main/java/com/xiaokai/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/src/main/java/com/xiaokai/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/src/main/java/com/xiaokai/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/src/test/java/com/xiaokai/dao/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/xiaokai/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/xiaokai/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/xiaokai/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/xiaokai/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/test/java/com/xiaokai/dao/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/main/java/com/xiaokai/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/main/java/com/xiaokai/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/main/java/com/xiaokai/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-05/src/test/java/com/xiaokai/dao/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/xiaokai/dao/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/xiaokai/dao/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/xiaokai/dao/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/xiaokai/dao/TeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/xiaokai/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/xiaokai/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/xiaokai/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/xiaokai/pojo/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/xiaokai/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/xiaokai/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-06/src/test/java/com/xiaokai/dao/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebMail/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebMail/.idea/artifacts/WebMail_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebMail/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebMail/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebMail/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebMail/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebMail/WebMail.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebMail/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebMail/src/main/java/com/xiaokai/servlet/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebMail/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebMail/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailregister/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailregister/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailregister/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailregister/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailregister/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailregister/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailregister/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailregister/src/main/java/com/xiaokai/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailregister/src/main/java/com/xiaokai/servlet/RegistServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailregister/src/main/java/com/xiaokai/utils/Sendmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../emailregister/src/main/webapp/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-filter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-filter/src/main/java/com/xiaokai/filter/SysFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-filter/src/main/java/com/xiaokai/listener/OnlineCountListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-filter/src/main/java/com/xiaokai/listener/TestPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-filter/src/main/java/com/xiaokai/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-filter/src/main/java/com/xiaokai/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-filter/src/main/java/com/xiaokai/servlet/ShowServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-filter/src/main/java/com/xiaokai/util/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-filter/web/Login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-filter/web/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-filter/web/filtertest.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-filter/web/sys/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaweb-jsp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcTest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcTest/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcTest/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcTest/src/main/java/com/xiaokai/jdbctest/TestAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcTest/src/main/java/com/xiaokai/jdbctest/TestJDBC01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcTest/src/main/java/com/xiaokai/jdbctest/TestJDBC02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/Resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/dao/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/dao/bill/BillDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/dao/bill/BillDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/dao/provider/ProviderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/dao/provider/ProviderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/dao/role/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/dao/role/RoleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/dao/user/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/dao/user/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/filter/CharacterEncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/filter/SysFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/pojo/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/pojo/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/pojo/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/pojo/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/service/bill/BillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/service/bill/BillServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/service/provider/ProviderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/service/provider/ProviderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/service/role/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/service/role/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/service/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/service/user/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/servlet/bill/BillServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/servlet/provider/ProviderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/servlet/user/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/servlet/user/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/servlet/user/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/util/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/java/com/xiaokai/util/PageSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/calendar/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/calendar/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/calendar/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/calendar/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/calendar/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/calendar/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/calendar/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/calendar/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/calendar/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/calendar/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/calendar/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/calendar/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/calendar/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/calendar/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/clock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/formBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/gys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/leftBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/loginBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/login_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/read.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/schu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/tc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/tianjia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/xiugai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/yh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/images/zd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/billadd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/billlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/billmodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/billview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/provideradd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/providerlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/providermodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/providerview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/pwdmodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/rollpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/useradd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/userlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/usermodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/js/userview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/billadd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/billlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/billmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/billview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/common/foot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/common/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/frame.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/provideradd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/providerlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/providermodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/providerview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/pwdmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/rollpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/useradd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/userlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/usermodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/jsp/userview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/target/classes/com/xiaokai/dao/BaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/target/classes/com/xiaokai/dao/user/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/target/classes/com/xiaokai/dao/user/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/target/classes/com/xiaokai/filter/CharacterEncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/target/classes/com/xiaokai/pojo/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/target/classes/com/xiaokai/pojo/Bill.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/target/classes/com/xiaokai/pojo/Provider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/target/classes/com/xiaokai/pojo/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/target/classes/com/xiaokai/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/target/classes/com/xiaokai/service/user/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smbms/target/classes/com/xiaokai/service/user/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20210414/基础语法" beforeDir="false" afterPath="$PROJECT_DIR$/../20210414/基础语法" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaweb-filter/src/main/java/com/xiaokai/filter/CharacterEncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaweb-filter/src/main/java/com/xiaokai/filter/CharacterEncodingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaweb-filter/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaweb-filter/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaweb-filter/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../javaweb-filter/web/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Environment\apache-maven-3.6.1\maven-repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Environment/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Environment\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1veiDK87M58RS42PBd1WYF9wJla" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-06/src/main/java/com/xiaokai/dao" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\Mybatis-Study\mybatis-06\src\main\java\com\xiaokai\dao" />
+      <recent name="D:\code\Mybatis-Study\mybatis-06\src\main\resources" />
+      <recent name="D:\code\Mybatis-Study\mybatis-06\src\main\java" />
+      <recent name="D:\code\Mybatis-Study\mybatis-05\src\main\resources" />
+      <recent name="D:\code\Mybatis-Study\mybatis-05\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xiaokai.dao" />
+      <recent name="com.xiaokai.pojo" />
+      <recent name="com.xiaokai.utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserMapperTest.testDeleteById">
+    <configuration name="UserMapperTest.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaokai.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaokai.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaokai.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="testAddUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testDeleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaokai.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaokai.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaokai.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="testDeleteById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testGetUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaokai.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaokai.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaokai.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="testGetUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testSelectUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaokai.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaokai.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaokai.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="testSelectUserById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testUpdateById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaokai.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaokai.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaokai.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="testUpdateById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserMapperTest.testDeleteById" />
+        <item itemvalue="JUnit.UserMapperTest.testUpdateById" />
+        <item itemvalue="JUnit.UserMapperTest.testAddUser" />
+        <item itemvalue="JUnit.UserMapperTest.testSelectUserById" />
+        <item itemvalue="JUnit.UserMapperTest.testGetUsers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d25f7e4-2d89-4653-94f6-6356a63e0262" name="Default Changelist" comment="" />
+      <created>1626928834911</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626928834911</updated>
+      <workItem from="1626928836175" duration="12054000" />
+      <workItem from="1627017136911" duration="4919000" />
+      <workItem from="1627040034181" duration="7319000" />
+      <workItem from="1627101366355" duration="14150000" />
+      <workItem from="1627204408644" duration="6655000" />
+      <workItem from="1627295792781" duration="2396000" />
+      <workItem from="1627357782497" duration="2735000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-05/src/test/java/com/xiaokai/dao/UserMapperTest.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
